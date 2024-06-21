@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fontdiner+Swanky&family=Playwrite+ES:wght@100..400&family=Playwrite+ID:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+.header-text-span{
+    
+    animation: bounce .7s linear;
+
+}
+
+.header-text-span:nth-child(1){
+    animation-delay: .05s;
+}
+
+.header-text-span:nth-child(2){
+    animation-delay: .1s;
+}
+
+.header-text-span:nth-child(3){
+    animation-delay: .15s;
+}
+
+.header-text-span:nth-child(4){
+    animation-delay: .2s;
+}
+
+.header-text-span:nth-child(5){
+    animation-delay: .25s;
+}
+
+.header-text-span:nth-child(6){
+    animation-delay: .3s;
+}
+
+.header-text-span:nth-child(7){
+    animation-delay: .35s;
+}
+
+.header-text-span:nth-child(8){
+    animation-delay: .4s;
+}
+
+.header-text-span:nth-child(9){
+    animation-delay: .45s;
+}
+
+.header-text-span:nth-child(10){
+    animation-delay: .5s;
+}
+
+.header-text-span:nth-child(11){
+    animation-delay: .55s;
+}
+
+.header-text-span:nth-child(12){
+    animation-delay: .6s;
+}
+
+.header-text-span:nth-child(13){
+    animation-delay: .65s;
+}
+
+.header-text-span:nth-child(14){
+    animation-delay: .7s;
+}
+
+.header-text-span:nth-child(15){
+    animation-delay: .75s;
+}
+
+.header-text-span:nth-child(16){
+    animation-delay: .8s;
+}
+
+.header-text-span:nth-child(17){
+    animation-delay: .85s;
+}
+
+@keyframes bounce {
+    0%{
+        @apply text-blue-400 ;
+        transform: translateY(-10px);
+    }
+    50%{
+        @apply text-blue-400 ;
+        transform: translateY(0px);
+    }
+    100%{
+        @apply text-blue-400 ;
+        transform: translateY(-10px);
+    }
+}
